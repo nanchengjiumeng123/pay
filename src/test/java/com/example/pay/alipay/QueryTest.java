@@ -7,7 +7,7 @@ import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.domain.AlipayTradeQueryModel;
 import com.alipay.api.request.AlipayTradeQueryRequest;
 import com.alipay.api.response.AlipayTradeQueryResponse;
-import com.pay.alipay.common.AliPayConfig;
+import com.example.pay.common.AliPayConfig;
 import org.junit.jupiter.api.Test;
 
 /**

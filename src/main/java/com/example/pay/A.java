@@ -14,7 +14,6 @@ public class A {
         System.out.println(d.getTime());
         long timeStamp = d.getTime() / 1000;     //getTime()得到的是微秒， 需要换算成秒
         System.out.println(timeStamp);
-
         long l = System.currentTimeMillis();
         System.out.println(l);
     }

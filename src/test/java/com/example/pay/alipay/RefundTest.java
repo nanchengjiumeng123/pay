@@ -7,7 +7,7 @@ import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.domain.AlipayTradeRefundApplyModel;
 import com.alipay.api.request.AlipayTradeRefundRequest;
 import com.alipay.api.response.AlipayTradeRefundResponse;
-import com.pay.alipay.common.AliPayConfig;
+import com.example.pay.common.AliPayConfig;
 import org.junit.jupiter.api.Test;
 
 import java.text.SimpleDateFormat;

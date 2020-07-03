@@ -7,7 +7,7 @@ import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.domain.AlipayTradeCloseModel;
 import com.alipay.api.request.AlipayTradeCloseRequest;
 import com.alipay.api.response.AlipayTradeCloseResponse;
-import com.pay.alipay.common.AliPayConfig;
+import com.example.pay.common.AliPayConfig;
 import org.junit.jupiter.api.Test;
 
 /**
