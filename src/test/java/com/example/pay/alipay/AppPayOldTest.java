@@ -42,10 +42,10 @@ public class AppPayOldTest {
          *
          */
         Map<String, Object> paramMapSend = new HashMap<String, Object>();
-        paramMapSend.put("total_amount", "10");
-        paramMapSend.put("body", "杨鑫的测试商品1");
-        paramMapSend.put("subject", "实体商品-袜子11");
-        paramMapSend.put("out_trade_no", "135792468011");
+        paramMapSend.put("total_amount", "999");
+        paramMapSend.put("body", "杨鑫的测试111");
+        paramMapSend.put("subject", "实体商品111");
+        paramMapSend.put("out_trade_no", "1478485149489");
         paramMapSend.put("timeout_express","9m");//订单失效时间
 //        Map<String, String> merchantMap = new HashMap<String, String>();
 //        merchantMap.put("merchant_id", "2088102180986401");//受理商户编号

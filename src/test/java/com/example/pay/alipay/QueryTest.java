@@ -34,7 +34,7 @@ public class QueryTest {
         AlipayTradeQueryRequest request = new AlipayTradeQueryRequest();
         //SDK已经封装掉了公共参数，这里只需要传入业务参数。以下方法为sdk的model入参方式(model和biz_content同时存在的情况下取biz_content)。
         AlipayTradeQueryModel model = new AlipayTradeQueryModel();
-        model.setOutTradeNo("9926520200629");
+        model.setOutTradeNo("1478485149489");
         request.setBizModel(model);
         System.out.println("request:"+ JSON.toJSONString(request));
         AlipayTradeQueryResponse response = alipayClient.execute(request);

@@ -24,6 +24,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/pay")
 public class AliPayController {
 
+     /**
+      * 异步通知接口
+      */
+    @RequestMapping("/bankNoticeService")
+    public String showSuccess(){
+        System.out.println("支付成功！");
+        return "success";
+    }
+
     /**
      * 支付接口    扫描支付
      *
